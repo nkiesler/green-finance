@@ -10,11 +10,11 @@ const Footer = () => (
 	                        Address
 	                    </div>
 	                    <div>
-	                        Blau STC ApS. <br/>
-	                        Møllegade 11 A <br/>
-	                        9000 Ålborg <br/>
-	                        Danmark <br/>
-	                        CVR: 40828133 <br/>
+	                        Green Finance IVS <br/>
+	                        Pilehøj 44 <br/>
+	                        2990 Nivå <br/>
+	                        Denmark <br/>
+	                        CVR: XXXXXXXX <br/>
 	                    </div>
 	                </div>
 	            </div>
