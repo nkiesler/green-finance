@@ -30,7 +30,7 @@ const LoginForm = () => {
 							password: values.password,
         				}
 
-        				axios.post("https://blau-api.herokuapp.com/users/authenticate", userObj)
+        				axios.post("https://green-finance-api.herokuapp.com/users/authenticate", userObj)
 	                        .then((res) => {
 	                        	console.log(userObj)
 	                        	setSubmitting(false)

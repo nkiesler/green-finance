@@ -65,7 +65,7 @@ const Newsletter = () => {
 	        			validationSchema={ newsletterSchema }
 	        			onSubmit={(values, { setSubmitting }) => {
 
-	        				axios.post("https://blau-api.herokuapp.com/contacts/subscribe", { email: values.email })
+	        				axios.post("https://green-finance-api.herokuapp.com/contacts/subscribe", { email: values.email })
 		                        .then((res) => {
 		                        	console.log(res)
 		                            setSubmitting(false)

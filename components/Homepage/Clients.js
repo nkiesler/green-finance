@@ -88,7 +88,7 @@ const Clients = () => {
 
 
 
-	        				axios.post("https://blau-api.herokuapp.com/contacts/add", data)
+	        				axios.post("https://green-finance-api.herokuapp.com/contacts/add", data)
 		                        .then((res) => {
 		                        	console.log(res)
 		                        	setMessage('Your message has been sent.')

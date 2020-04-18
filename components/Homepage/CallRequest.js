@@ -23,7 +23,7 @@ const CallRequest = () => {
   	const handleSubmit = e => {
   		e.preventDefault();
 
-  		axios.post("https://blau-api.herokuapp.com/contacts/addPhoneNumber", { phoneNumber: phone })
+  		axios.post("https://green-finance-api.herokuapp.com/contacts/addPhoneNumber", { phoneNumber: phone })
             .then((res) => {
             	console.log(res)
             	if (res.data.success) {

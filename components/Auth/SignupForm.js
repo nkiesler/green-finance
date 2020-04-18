@@ -48,7 +48,7 @@ const SignupForm = () => {
 								address: values.address,
 	        				}
 
-	        				axios.post("https://blau-api.herokuapp.com/users/register", userObj)
+	        				axios.post("https://green-finance-api.herokuapp.com/users/register", userObj)
 		                        .then((res) => {
 		                        	setSubmitting(false)
 		                        	if (res.data.error) {
