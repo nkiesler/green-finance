@@ -168,8 +168,18 @@ header {
   color: #fff;
   position: relative;
   .header-content {
+    // position: relative;
+    // z-index: 9;
+  }
+  nav {
+    z-index: 11;
+  }
+  .intro-small {
+    z-index: 11;
     position: relative;
-    z-index: 9;
+  }
+  .scroll-btn {
+    z-index: 11;
   }
 }
 
