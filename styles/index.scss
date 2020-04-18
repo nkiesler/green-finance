@@ -159,10 +159,11 @@ a {
 
 header {
   font-family: 'Mplus 1p', sans-serif;
-  background: url("/img/headerbg.jpeg") no-repeat;
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
+  // background: url("/img/headerbg.jpeg") no-repeat;
+  // background-size: cover;
+  // background-position: center;
+  // background-attachment: fixed;
+  background: $green;
   min-height: 100vh;
   color: #fff;
   position: relative;
@@ -172,6 +173,14 @@ header {
   }
 }
 
+#tsparticles {
+  position: absolute !important;
+  left:0;
+  top:0;
+  width:100%;
+  height:100%;
+  z-index: 10;
+}
 .overlay {
   position: absolute;
   width: 100%;
@@ -446,7 +455,7 @@ button {
     border-radius: 50%;
     transition: $transition;
     &:hover {
-      background: #20a87e;
+      background: #16795b;
     }
   }
   .scroll-btn {

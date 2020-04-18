@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import Navbar from '../Navbar';
+import Particles from 'react-particles-js';
 
 const Header = () => {
 
@@ -41,6 +42,31 @@ const Header = () => {
 		        </div>
 		    </div>
 
+			<Particles 
+		        params={{ 
+		          particles: { 
+		            number: { 
+		              value: 150, 
+		              density: { 
+		                enable: true, 
+		                value_area: 1000, 
+		              } 
+		            }, 
+		            size: {
+		            	value: 3
+		            }
+		          },
+		          interactivity: {
+				    events: {
+				      onHover: {
+				        enable: true,
+				        mode: "repulse"
+				      },
+				      resize: true
+				    }
+				  },	
+		        }} 
+		      /> 
 		</header>
 	)
 	
