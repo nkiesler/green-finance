@@ -1,5 +1,6 @@
 $text: #072448;
 $textSecondary: #425770;
+$green: #21ce99;
 
 .modal-backdrop.show {
 	opacity: 0.2 !important;
@@ -22,7 +23,7 @@ $textSecondary: #425770;
 		width: 160px;
 		height: 44px;
 		border-radius: 4px;
-		border: 2px solid #558EFF;
+		border: 2px solid $green;
 		transition: 0.2s ease;
 		font-weight: bold;
 		font-size: 16px;
@@ -30,18 +31,18 @@ $textSecondary: #425770;
 	}
 	.primary {
 		color: #fff;
-		background: #558EFF;
+		background: $green;
 		&:hover {
-			color: #558EFF;
+			color: $green;
 			background: #fff;
 		}
 	}
 	.secondary {
-		color: #558EFF;
+		color: $green;
 		background: #fff;
 		&:hover {
 			color: #fff;
-			background: #558EFF;
+			background: $green;
 		}
 	}
 }
@@ -62,7 +63,7 @@ $textSecondary: #425770;
 		display: block;
 	}
 	.result-message {
-		color: #F8D249;
+		color: $green;
 	}
 	.form-group {
 		label {
@@ -83,13 +84,13 @@ $textSecondary: #425770;
 		margin-bottom: 15px;
 		.envelope-circle {
 			position: absolute;
-			background: #F8D249;
+			background: $green;
 			width: 60px;
 			height: 60px;
 			line-height: 60px;
 			top: -30px;
 			border-radius: 50%;
-			color: $text;
+			color: #fff;
 			right: 0;
 			left: 0;
 			margin: auto;
