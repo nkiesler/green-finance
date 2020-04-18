@@ -21,7 +21,7 @@ const Terms = () => {
 				<li><span className="accent">"Hvidvaskloven"</span> betyder reglerne i den til enhver tid gældende lovbekendtgørelse om forebyggende foranstaltninger mod hvidvask og udbytte og finansiering af terrorisme.</li>
 				<li><span className="accent">"Kautionist"</span> betyder en fysisk eller juridisk person, som ved underskrivelse af Gældsbrevet stiller Selvskyldnerkaution til fordel for Bidragsyderne og Agenten.</li>
 				<li><span className="accent">"Konkursloven"</span> betyder den til enhver tid gældende konkurslov, lov nr. 11 af 6. januar 2014 om konkurs (med senere ændringer).</li>
-				<li><span className="accent">"Green"</span> betyder Green STC ApS, CVR-nummer: 40828133.</li>
+				<li><span className="accent">"Green"</span> betyder Green ApS, CVR-nummer: 40828133.</li>
 				<li><span className="accent">"Lån"</span> er en datamæssig repræsentation på Platformen af et lån eller et låneforslag, der kun muligvis bliver omsat til et juridisk bindende lån. Et Lån har altid en tilknyttet Låntager og diverse andre stamdata, men kan bortset fra dette være ukomplet beskrevet hvad angår nominel værdi, opdeling i Låneandele med dertilhørende Bidragsydere, præcisering af datoer for og størrelser på afdrag, renter og gebyrer m.m. Disse detaljer bliver først føjet til Lånet, hvis og når det udstedes.</li>
 				<li><span className="accent">"Låneandel"</span> betyder en andel i et Lån, som en Bidragsyder har købt eller givet tilsagn om at købe gennem sin Platformskonto. Se afsnittet Lån og Låneandele i disse Forretningsbetingelser.</li>
 				<li><span className="accent">"Lånebeløb"</span> betyder det til enhver tid udestående lånebeløb for et Lån bestående af lånets hovedstol og påløbne men endnu ikke tilskrevne eller betalte renter og gebyrer, der skyldes til Bidragsyderne og Green, som specificeret i Gældsbrevet.</li>
@@ -44,8 +44,8 @@ const Terms = () => {
 			</ul>
 
 			<h4>Udbyder af tjenesten</h4>
-			Udbyder af Platformen er: Green STC ApS<br/>
-			Møllegade 11 A<br/>
+			Udbyder af Platformen er: Green STC ApS <br/>
+			Møllegade 11 A <br/>
 			9000 Ålborg<br/>
 			Danmark<br/>
 			E-mail: pmikk@tutanota.com<br/>

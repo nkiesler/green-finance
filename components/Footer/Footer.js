@@ -14,7 +14,7 @@ const Footer = () => (
 	                        Pilehøj 44 <br/>
 	                        2990 Nivå <br/>
 	                        Denmark <br/>
-	                        CVR: XXXXXXXX <br/>
+	                        CVR: 40828133 <br/>
 	                    </div>
 	                </div>
 	            </div>

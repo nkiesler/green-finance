@@ -22,13 +22,13 @@ const Features = () => (
 		        <div className="col-lg-6 mt-lg-0 mt-2">
 		            <div className="block-item">
 		                <div className="block-heading">
-		                    Disrupting the leasing industry - Dorsch innovation
+		                    Blockchain Center Fasttrack Academy
 		                </div>
 		                <div className="block-content">
-		                    In this blog post you can read more about LIVA consult- our new ambassador.
+		                	Jump-start your career as a blockchain professional with a Blockchain Certification in the latest emerging industry.
 		                </div>
 		                <div className="block-btn text-right">
-		                	<a href="https://www.dorsch-leasing.dk" target="blank" rel="noopener noreferrer">
+		                	<a href="https://fasttrack.network/" target="blank" rel="noopener noreferrer">
 			                    <button className="section-btn">
 			                        Read how
 			                    </button>
