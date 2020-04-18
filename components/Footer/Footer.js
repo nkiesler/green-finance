@@ -29,7 +29,7 @@ const Footer = () => (
 	                        </a>
 	                    </div>
 	                    <div className="footer-item">
-	                        70 270 250 (kl. 9-17)
+	                        +45 41 41 04 05
 	                    </div>
 	                </div>
 	            </div>
