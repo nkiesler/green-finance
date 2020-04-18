@@ -25,7 +25,7 @@ const Footer = () => (
 	                    </div>
 	                    <div className="footer-item">
 	                        <a href="mailto:info@bfinans.dk" className="footer-link">
-	                            info@bfinans.dk
+	                            pmikk@tutanota.com
 	                        </a>
 	                    </div>
 	                    <div className="footer-item">
