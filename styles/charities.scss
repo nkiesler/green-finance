@@ -1,0 +1,70 @@
+$text: #072448;
+$green: #21ce99;
+
+
+.charities h2 {
+	font-weight: 800;
+    font-size: 45px;
+    color: #072448;
+    margin-top: 20px;
+}
+.charities-list {
+	justify-content: space-between;
+}
+.charity-wrapper {
+	box-shadow: rgba(0, 0, 0, 0.08) 0px 0px 0px;
+    cursor: pointer;
+    background: rgb(255, 255, 255);
+    border-radius: 8px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(231, 235, 238);
+    border-image: initial;
+    transition: box-shadow 500ms ease 0s, opacity 500ms ease 0s, z-index 0ms ease-out 500ms;
+    overflow: hidden;
+    padding: 24px;
+    margin: 10px 0;
+    &:hover {
+    	box-shadow: rgba(0, 0, 0, 0.12) 0px 8px 24px;
+    }
+    img {
+    	background: #f8931f;
+    	padding: 5px;
+    	margin-bottom: 10px;
+    }
+    h3 {
+    	font-size: 24px;
+	    font-weight: 800;
+	    line-height: 32px;
+	    margin: 0px 10px 10px 0px;
+	    color: $text;
+    }
+    .desc {
+    	color: rgb(88, 112, 136);
+	    line-height: 24px;
+	    font-size: 16px;
+	    margin: 0px;
+    }
+}
+.donate-btn {
+	color: rgb(255, 255, 255);
+    background-color: $green;
+    border-width: 2px;
+    border-style: solid;
+    border-color: $green;
+    border-image: initial;
+    width: 120px;
+    height: 48px;
+    transition: background-color 0.5s ease 0s;
+    border-radius: 4px;
+    margin-top: 24px;
+    &:hover {
+    	color: $green;
+    	background-color: rgb(255, 255, 255);
+    }
+}
+@media (min-width: 1200px) {
+	.charity-wrapper.col-xl-6 {
+		max-width: 49% !important;
+	}
+}
