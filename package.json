@@ -33,7 +33,6 @@
     "node-sass": "^4.13.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-particles-js": "^3.0.3",
     "react-phone-input-2": "^2.12.1",
     "reactstrap": "^8.4.1",
     "yup": "^0.28.3"
